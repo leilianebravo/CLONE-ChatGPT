@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    border: 2px solid red;
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#logo{
+    height: 30.4px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 89.6px;
+    margin-bottom: 89.6px;
+}
+
+.card{    
+    width: 320px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 31px;
+    color: #2E3339;
+    margin-bottom: 24px;
+}
+
+label{
+    position: absolute;
+    top: 260px;
+    margin-left: 8px;
+    color: #0FA47F;
+    background: white;
+}
+
+input{
+    font-size: 14px;
+    font-weight: 500;
+    width: 320px;
+    height: 64px;
+    border: 1px solid #0FA47F;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 13px;
+    outline: none;
+}
+    
+
+
+#recaptcha{
+    margin-bottom: 25px;
+}
+
+#continue{
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 320px;
+    height: 64px;
+    background: #0FA47F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2{
+
+
+    font-size: 14px;
+    font-weight: 500;
+    color: #2E3339;
+    width: 220px;
+    margin-left: 50px;
+    margin-top: 13px;
+}
+
+#singup{
+    color: #0FA47F;
+}
+
+#or{
+    margin-top: 14px;
+}
+
+#google{
+    margin-top: 17px;
+}
+
+#microsoft{
+    margin-top: 8px;
+}
