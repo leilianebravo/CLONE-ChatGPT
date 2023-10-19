@@ -8,6 +8,7 @@
 }
 
 main{
+    
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -15,3 +16,124 @@ main{
     align-items: center;
     flex-direction: column;
 }
+
+.container{   
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: line;
+}
+
+.cardleft{
+    
+    width: 361px;
+    height: 1071px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: #202123;
+}
+
+#buttonnew{    
+    width: 254px;
+    height: 45px;
+    margin: 9px;
+    border-radius: 6px;
+    border: solid 1px;
+    border-color:#ffffff;
+    background: #202123;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13.5px;  
+    display: inline-flex;
+    align-items: center;
+  
+}
+
+#plus{
+    width: 18px;
+    height: 18px;
+    margin: 0 2px 0 25px;
+    filter: invert(100%);
+}
+
+button h1{
+    width: 79px;
+    height: 18px;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: white;
+
+}
+
+/*----------------------------------------------*/
+
+.cardright{
+    
+    width: 2171px;
+    height: 1071px;
+    display: flex;
+    justify-content: center;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: #343541; 
+}
+
+#content{
+    width: 718px;
+    height: 416px;
+    margin: 141px 227px 89px 226px;
+}
+
+.textfield{
+    position: relative;
+}
+
+#inputtext{
+    width: 768px;
+    height: 48px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #40414E;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#send{
+    width: 14px;
+    height: 14px;
+    left: 740px;
+    top: 16px;
+    position: absolute;
+}
+
+h5{
+    width: 910px;
+    height: 26px;
+    margin-top: 8px;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 12.5px;
+    color: #D9D9D9;
+      
+      
+}
+
+#singup{
+    height: 26px;
+    margin-top: 8px;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 12.5px;
+    color: #D9D9D9; 
+    
+}
+

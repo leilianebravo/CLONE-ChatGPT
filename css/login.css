@@ -16,9 +16,7 @@ main{
     flex-direction: column;
 }
 
-.container{
-    border: 2px solid red;
-
+.container{   
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -26,7 +24,6 @@ main{
     justify-content:flex-start;
     align-items: center;
     flex-direction: column;
-
 }
 
 #logo{
@@ -77,8 +74,6 @@ input{
     outline: none;
 }
     
-
-
 #recaptcha{
     margin-bottom: 25px;
 }
@@ -96,8 +91,6 @@ input{
 }
 
 h2{
-
-
     font-size: 14px;
     font-weight: 500;
     color: #2E3339;
