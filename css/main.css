@@ -7,8 +7,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-main{
-    
+main{    
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -17,8 +16,7 @@ main{
     flex-direction: column;
 }
 
-.container{   
-    
+.container{       
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -28,8 +26,7 @@ main{
     flex-direction: line;
 }
 
-.cardleft{
-    
+.cardleft{    
     width: 350px;
     height: 962px;
     display: flex;
@@ -40,7 +37,6 @@ main{
 }
 
 #buttonnew{    
-    
     width: 254px;
     height: 45px;
     margin: 9px;
@@ -52,8 +48,7 @@ main{
     font-weight: 400;
     font-size: 13.5px;  
     display: inline-flex;
-    align-items: center;
-  
+    align-items: center;  
 }
 
 #plus{
@@ -71,18 +66,88 @@ button h1{
     color: white;
 }
 
-.cardbutton{
+#buttonchatbot{       
+    width: 254px;
+    height: 45px;
+    margin: 9px;
+    border-radius: 6px;
+    border: solid 1px;
+    border-color:#ffffff;
+    background: #343540;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13.5px;  
+    display: inline-flex;
+    align-items: center;  
+}
+
+#message{
+    width: 13px;
+    height: 13px;
+    margin: 0 0 0 14px;
     
-    margin: 520px 0 29px 0px;
     
 }
 
-#line{
+button h7{    
+    width: 151px;
+    height: 12px;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: white;
+    margin: 0 6px 0 15px;
+}
 
+#pen{
+    width: 13px;
+    height: 13px;
+    margin: 0 0 0 0;
+    
+}
+
+#vector1{
+    width: 13px;
+    height: 13px;
+    margin: 0 11px 0 13px;
+    
+}
+
+.cardbutton{    
+    margin: 389px 0 0 0;
+}
+
+#line{
     width: 244px;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 10px;    
+}
+
+#buttonclear{    
+    width: 254px;
+    height: 45px;
+    margin: 9px;
+    border: none;
+    background: #202123;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13.5px;  
+    display: inline-flex;
+    align-items: center;
+    margin:35px 0 0 0;  
+}
+
+#vector{
+    width: 13px;
+    height: 13px;
+    margin: 0 0px 0 21px;
     
-    
+}
+
+button h8{    
+    width: 172px;
+    height: 14px;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: white;    
 }
 
 #buttonlight{    
@@ -211,9 +276,6 @@ button h5{
     
 }
 
-
-
-
 .cardright{
     
     width: 2171px;
@@ -226,10 +288,59 @@ button h5{
     background: #343541; 
 }
 
-#content{
-    width: 718px;
-    height: 416px;
-    margin: 141px 227px 89px 226px;
+.question{
+    width: 480px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    margin: 29px 837px 29px 245px;
+}
+
+#avatar{
+    width: 40px;
+    height: 40px;
+    margin: 0 29px 0 0;
+    
+}
+
+h9{   
+    
+    width: 428px;
+    height: 22px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;        
+}
+
+#answer{
+    width: 1648px;
+    height: 230px;
+    margin: 0 0 361px 0;   
+}
+
+#buttonregenerate{    
+    width: 184px;
+    height: 37px;
+    margin: 9px;
+    border-radius: 3px;
+    border: solid 1px;
+    border-color:#444654;
+    background: #343541;
+    color: #C5C5D1;
+    font-weight: 500;
+    font-size: 13px;  
+    display: inline-flex;
+    align-items: center;
+    margin:0 0 10px 0; 
+}
+
+#refresh{
+    width: 13px;
+    height: 11px;
+    margin: 0 9px 0 10px;
 }
 
 .textfield{
@@ -275,6 +386,5 @@ h6{
     font-weight: 400;
     font-size: 12.5px;
     color: #9A9B9F; 
-    
 }
 
