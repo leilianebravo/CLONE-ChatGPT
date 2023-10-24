@@ -30,8 +30,8 @@ main{
 
 .cardleft{
     
-    width: 361px;
-    height: 1071px;
+    width: 350px;
+    height: 962px;
     display: flex;
     justify-content:flex-start;
     align-items: center;
@@ -40,6 +40,7 @@ main{
 }
 
 #buttonnew{    
+    
     width: 254px;
     height: 45px;
     margin: 9px;
@@ -62,21 +63,161 @@ main{
     filter: invert(100%);
 }
 
-button h1{
+button h1{    
     width: 79px;
     height: 18px;
     font-size: 13.5px;
     font-weight: 500;
     color: white;
-
 }
 
-/*----------------------------------------------*/
+.cardbutton{
+    
+    margin: 520px 0 29px 0px;
+    
+}
+
+#line{
+
+    width: 244px;
+    margin: 0 0 0 10px;
+    
+    
+}
+
+#buttonlight{    
+    width: 254px;
+    height: 45px;
+    margin: 9px;
+    border: none;
+    background: #202123;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13.5px;  
+    display: inline-flex;
+    align-items: center;
+    margin:35px 0 0 0;
+    
+    
+  
+}
+
+#sun{
+    width: 15px;
+    height: 15px;
+    margin: 0 0px 0 21px;
+    filter: invert(100%);
+}
+
+button h2{    
+    width: 106px;
+    height: 12px;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: white;    
+}
+
+
+#buttonopen{    
+    width: 254px;
+    height: 45px;
+    margin: 9px;
+    border: none;
+    background: #202123;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13.5px;  
+    display: inline-flex;
+    align-items: center;
+    margin:36px 0 0 0; 
+}
+
+#discord{
+    width: 16.44px;
+    height: 13px;
+    margin: 0 13px 0 21px;
+    filter: invert(100%);
+}
+
+button h3{    
+    width: 106px;
+    height: 12px;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: white;
+}
+
+#buttonupdates{    
+    width: 254px;
+    height: 45px;
+    margin: 9px;
+    border: none;
+    background: #202123;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13.5px;  
+    display: inline-flex;
+    align-items: center;
+    margin:36px 0 0 0;
+    
+  
+}
+
+#up{
+    width: 14px;
+    height: 14px;
+    margin: 0 13px 0 21px;
+    filter: invert(100%);
+}
+
+button h4{    
+    width: 106px;
+    height: 12px;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: white;
+}
+
+#buttonlogout{    
+    width: 254px;
+    height: 45px;
+    margin: 9px;
+    border: none;
+    background: #202123;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13.5px;  
+    display: inline-flex;
+    align-items: center;
+    margin: 36px 0 0 0;
+    
+   
+  
+}
+
+#out{
+    width: 15px;
+    height: 15px;
+    margin: 0 0px 0 21px;
+    filter: invert(100%);
+}
+
+button h5{    
+    width: 85px;
+    height: 12px;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: white;
+    
+}
+
+
+
 
 .cardright{
     
     width: 2171px;
-    height: 1071px;
+    height: 962px;
     display: flex;
     justify-content: center;
     justify-content:flex-start;
@@ -115,7 +256,7 @@ button h1{
     position: absolute;
 }
 
-h5{
+h6{
     width: 910px;
     height: 26px;
     margin-top: 8px;
